@@ -18,7 +18,7 @@ client.on('ready', () => {
  client.user.setGame(`☆`,`https://www.twitch.tv/skwadraa`);
 });
  
-const prefix = "3"
+const prefix = "="
 client.on('message', async msg => {
     if (msg.author.bot) return undefined;
     if (!msg.content.startsWith(prefix)) return undefined;
